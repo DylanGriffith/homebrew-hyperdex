@@ -3,7 +3,7 @@ require 'formula'
 class Hyperdex < Formula
   homepage 'http://hyperdex.org'
   url 'http://hyperdex.org/src/hyperdex-1.3.1.tar.gz'
-  sha1 'f400a7369b024f2932d810ef78c86bf8b3b383e6'
+  sha1 '01f574eba0eeb18cb09e5fd37a5d566db678b531'
 
   depends_on 'autoconf'
   depends_on 'automake'
