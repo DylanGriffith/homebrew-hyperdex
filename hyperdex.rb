@@ -36,7 +36,7 @@ class Hyperdex < Formula
     args << "--enable-python-bindings" if build.with? "python-bindings"
     args << "--enable-ruby-bindings" if build.with? "ruby-bindings"
     
-    system "./configure", "--prefix=#{prefix}", *args
+    system "./configure", "--prefix=#{prefix}", "--enable-client", *args
     system "make"
     system "make install"
   end
